@@ -8,7 +8,7 @@ RUN apk add --no-cache git
 WORKDIR /app
 
 # Clonar el repositorio con tu microservicio
-RUN git clone https://github.com/LENINMORENO13/ms_usuarios_2025.git .
+RUN git clone https://github.com/LENINMORENO13/ms_usuarios.git .
 
 # Instalar dependencias sin las de desarrollo
 RUN npm install --omit=dev
