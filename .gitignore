@@ -1,0 +1,21 @@
+# Ignorar dependencias
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Archivos de logs
+*.log
+
+# Archivos de certificados
+# (vacío para que no se ignoren)
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Docker temporales
+docker-compose.override.yml
+
+# Simuladores / pruebas
+wiremock/
